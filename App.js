@@ -21,7 +21,8 @@ export default class App extends Component<Props> {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Hello, World!</Text>
+        <Text style={styles.welcome}>FiCome</Text>
+        <Text>Nikita Pronkin</Text>
       </View>
     );
   }
